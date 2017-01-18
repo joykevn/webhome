@@ -1,0 +1,101 @@
+#main{
+    height:480px;
+    width: 1000px;
+    border:1px solid #c12e2a;
+    padding:10px;
+}
+
+ul, ol { padding: 0;}
+.banner { position: relative; overflow: auto; text-align: center;}
+.banner li { list-style: none; }
+.banner ul li { float: left; }
+/*Ê×Ò³¼°´ÎÒ³ÎÄ×Ö*/
+.Jcontainer{
+    position: relative;
+}
+.Jcontainer img{
+    width: 1366px;
+    height: 767px;
+}
+#p1_txt{
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 130px;
+    font-family: Î¢ÈíÑÅºÚ;
+    color: #fff;
+}
+#p2_txt{
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 150px;
+    font-family: Î¢ÈíÑÅºÚ;
+    color: #fff;
+}
+.Jbanner{
+    position: relative;
+    width: 1366px;
+    height: 76px;
+    background-color:#c12e2a;
+}
+.Jbanner img{
+    width: auto;
+    height: 76px;
+    padding-left: 20px;
+}
+.Jbanner span{
+    position: absolute;
+    text-align: right;
+    top: 15%;
+    width: 100%;
+    font-family: Î¢ÈíÑÅºÚ;
+    font-size: 35px;
+    color: #000;
+    right: 20px;
+}
+#p3_map img{
+    width: 982px;
+    height: 691px;
+}
+#p3_map span{
+    position: absolute;
+    text-align: left;
+    top: 15%;
+    width: 40%;
+    font-family: Î¢ÈíÑÅºÚ;
+    font-size: 35px;
+    color: #000;
+    left: 250px;
+}
+
+
+#ppt { width: 100%;}
+#ppt .dots { position: absolute; left: 0; right: 0; bottom: 20px;}
+#ppt .dots li
+{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    text-indent: -999em;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: .4;
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+}
+#ppt .dots li.active
+{
+    background: #fff;
+    opacity: 1;
+}
+#ppt .arrow { position: absolute; top: 200px;}
+#ppt #al { left: 15px;}
+#ppt #ar { right: 15px;}

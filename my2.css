@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    position: relative;
+}
+#banner{
+  position: relative;
+  display: block;
+  height: 67px;
+  background-color: red;
+}
+#idbody{
+    position: relative;
+    height: 500px;
+    background-color: white;
+    display: block;
+}
+#logo{
+    display: inline-block;
+    background: url("./img/logo.png") no-repeat;
+    height: 60px;
+    width: 600px;
+    overflow: visible;
+    border: 1px solid black;
+}
+img{
+    width: auto;
+    height: 67px;
+    overflow: visible;
+    position: relative;
+    display: inline-block;
+  vertical-align: middle;
+}
+#banner_txt{
+  position: relative;
+  font-family: "黑体";
+  font-size: 35px;
+  color: #131213;
+  display: inline-block;
+  margin-right: 0px;
+  vertical-align: middle;
+  overflow: visible;
+  margin-left: 50%;
+}
+.test_txt{
+    position: relative;
+    font-family:"黑体";
+    font-size: 35px;
+    color: green;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    vertical-align: middle;
+}

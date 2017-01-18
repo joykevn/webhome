@@ -1,1 +1,2 @@
 hello,today is Otc. 10,I will start my git travel.
+now ,I will addit another infomation.
